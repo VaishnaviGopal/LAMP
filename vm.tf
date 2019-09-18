@@ -55,7 +55,7 @@ variable "tags" {
 
 variable "ssh_user" {
   default = "root"
-  description = "The default user name for the virtual machine, for example, the "root" user for UNIX operating systems."
+  description = "The default user name for the virtual machine, for example, the `root` user for UNIX operating systems."
 }
 variable "ssh_label" {
   default = "public ssh key"
